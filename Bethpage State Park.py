@@ -31,8 +31,8 @@ headers = {
     }
 
 login_form_data = {
-    'username': 'shkreli7@gmail.com',
-    'password': 'Newyorkcity1234!',
+    'username': '### INSERT USERNAME HERE ###',
+    'password': '### INSERT PASSWORD HERE ###',
     'booking_class_id': '2136',
     'api_key': 'no_limits',
     'course_id': '19765'
@@ -89,7 +89,7 @@ while True:
                     print ('Reservation reserved for 5 minutes! Finalizing confirmation now...')
                     reservation_id = initial_reservation_request['reservation_id']
                     sitekey = '6LeQqCIUAAAAAI8nAaJahskkE6mNTI9cBBRseaFO'
-                    API_KEY = '8ababd23c4f53dc37e7a9044391d479f'
+                    API_KEY = '### INSERT 2CAPTCHA API KEY HERE ###'
                     challenge_url = 'https://foreupsoftware.com/index.php/booking/19765/2431#/teetimes'
                     captcha_loop = True
                     while captcha_loop:
